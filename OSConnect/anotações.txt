@@ -1,0 +1,26 @@
+
+/* Placa Mãe
+
+Placa mãe ATX para computadores de mesa, compatível com
+processadores Intel e AMD. Oferece suporte para memória
+DDR4, múltiplos slots de expansão e conectividade avançada
+para todos os periféricos.
+
+*/
+
+/* SSD 1TB 
+
+
+Unidade de estado sólido (SSD) de 1TB. Ideal para melhorar a
+performance de computadores e laptops, reduzindo o tempo de
+inicialização e carregamento de aplicativos.
+*/
+
+//* Fonte de Alimentação 650W 
+
+
+Fonte de alimentação de 650W com certificação 80 Plus
+Bronze. Fornece energia estável e eficiente para todos os
+componentes do computador, garantindo segurança e
+desempenho.
+*/
