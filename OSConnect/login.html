@@ -8,17 +8,12 @@
 
     <style>
       :root {
-        --primary-color: #212529;
-        --secondary-color: #212529;
+        --primary-color: #1b4041;
+        --secondary-color: #102e2f;
         --black: #000000;
         --white: #ffffff;
         --gray: #efefef;
         --gray-2: #002325;
-
-        --facebook-color: #4267b2;
-        --google-color: #db4437;
-        --twitter-color: #1da1f2;
-        --insta-color: #e1306c;
       }
 
       @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
@@ -62,7 +57,6 @@
       .form-wrapper {
         width: 100%;
         max-width: 28rem;
-        margin-top: 110px;
       }
 
       .form {
@@ -145,7 +139,7 @@
       }
 
       .text h2 {
-        font-size: 3.5rem;
+        font-size: 3rem;
         font-weight: 800;
         margin: 13.5rem 0;
         transition: 1.3s ease-in-out;
@@ -226,7 +220,8 @@
 
         .container.sign-in .col.sign-in,
         .container.sign-up .col.sign-up {
-          transform: translateY(0);
+          transform: translateY(70%);
+          z-index: 1;
         }
 
         .content-row {
@@ -264,7 +259,6 @@
 
         .text h2 {
           margin: 0.5rem;
-          font-size: 4rem;
         }
       }
 
@@ -276,6 +270,16 @@
 
       .input-group.d-flex div {
         flex: 1; /* Ambos os inputs ocupam o mesmo espaço */
+      }
+
+      .ajusteMargin {
+        margin-top: 185px;
+      }
+
+      @media screen and (max-width: 425px) {
+        .ajusteMargin {
+          margin-top: 0px;
+        }
       }
     </style>
   </head>
@@ -313,11 +317,22 @@
                 <span> já possui conta? </span>
                 <b onclick="toggle()" class="pointer">Entre aqui </b>
               </p>
+              <p>
+                <a
+                  href="index.html"
+                  style="
+                    text-decoration: none;
+                    font-weight: 700;
+                    color: #000000;
+                  "
+                  >Voltar</a
+                >
+              </p>
             </div>
           </div>
         </div>
         <div class="col align-items-center flex-col sign-in">
-          <div class="form-wrapper align-items-center">
+          <div class="form-wrapper align-items-center ajusteMargin">
             <div class="form sign-in">
               <div class="input-group">
                 <input type="text" placeholder="Nome" />
@@ -336,6 +351,17 @@
                 <span> Não possui conta? </span>
                 <b onclick="toggle()" class="pointer"> Cadastre-se aqui </b>
               </p>
+              <p>
+                <a
+                  href="index.html"
+                  style="
+                    text-decoration: none;
+                    font-weight: 700;
+                    color: #000000;
+                  "
+                  >Voltar</a
+                >
+              </p>
             </div>
           </div>
           <div class="form-wrapper"></div>
@@ -346,7 +372,6 @@
           <div class="text sign-in">
             <h2>Bem Vindo</h2>
           </div>
-          <div class="img sign-in"></div>
         </div>
         <div class="col align-items-center flex-col">
           <div class="img sign-up"></div>
